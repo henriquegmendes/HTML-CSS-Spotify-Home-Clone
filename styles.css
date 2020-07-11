@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+}
+
+nav {
+  height: 80px;
+  position: fixed;
+
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.separator {
+  width: 2px;
+  border-left: 2px solid #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 450px;
+}
+
+li {
+  list-style: none;
+}
+
+.site-logo {
+  height: 42px;
+  color: white;
+  padding-left: 45px;
+}
+
+a {
+  color: #fff;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-image: url('https://www.scdn.co/i/home/hero-burst.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top -410px;
+  background-position: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 9px;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.action-button {
+  margin-top: 16px;
+}
+
+button {
+  color: #fff;
+  background-color: #1db954;
+  font-size: 14px;
+  border: 0;
+  padding: 16px 48px 18px 48px;
+  border-radius: 500px;
+}
